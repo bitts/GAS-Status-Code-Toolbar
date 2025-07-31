@@ -9,11 +9,11 @@
 // @updateURL    https://raw.githubusercontent.com/bitts/GAS-Status-Code-Toolbar/refs/heads/main/GAS-Status-Code-Toolbar.user.js
 // @downloadURL  https://raw.githubusercontent.com/bitts/GAS-Status-Code-Toolbar/refs/heads/main/GAS-Status-Code-Toolbar.user.js
 // @icon         https://www.gstatic.com/script/apps_script_1x_24dp.png
-// @version      1.0.0
+// @version      1.0.1
 // @license      MIT; https://opensource.org/licenses/MIT
+// @noframes
 // @match        https://script.google.com/*
 // @grant        none
-
 // ==/UserScript==
 
 
@@ -49,6 +49,7 @@
       settings: 'Configurações',
       configTitle: 'Configuração de Plugin',
       save: 'Salvar',
+      btnSaveDrive: 'Salvar projeto no Drive',
       resetPos: 'Resetar Valores',
       shortcuts: 'Atalho',
       icon: 'Ícone',
@@ -69,6 +70,7 @@
       settings: 'Settings',
       configTitle: 'Plugin Configuration',
       save: 'Save',
+      btnSaveDrive: 'Save project in Drive',
       resetPos: 'Reset Values',
       shortcuts: 'Shortcut',
       icon: 'Icon',
@@ -89,6 +91,7 @@
       settings: '设置',
       configTitle: '插件配置',
       save: '保存',
+      btnSaveDrive: '将项目保存到云端硬盘',
       resetPos: '重置值',
       shortcuts: '快捷方式',
       icon: '图标',
@@ -109,6 +112,7 @@
       settings: 'Configuración',
       configTitle: 'Configuración del Plugin',
       save: 'Guardar',
+      btnSaveDrive: 'Guardar proyecto en Drive',
       resetPos: 'Restablecer Valores',
       shortcuts: 'Atajo',
       icon: 'Icono',
@@ -129,6 +133,7 @@
       settings: 'सेटिंग्स',
       configTitle: 'प्लगइन कॉन्फ़िगरेशन',
       save: 'सहेजें',
+      btnSaveDrive: 'प्रोजेक्ट को ड्राइव में सहेजें',
       resetPos: 'मान रीसेट करें',
       shortcuts: 'शॉर्टकट',
       icon: 'आइकन',
@@ -149,6 +154,7 @@
       settings: 'الإعدادات',
       configTitle: 'تهيئة المكون الإضافي',
       save: 'حفظ',
+      btnSaveDrive: 'حفظ المشروع في درايف',
       resetPos: 'إعادة تعيين القيم',
       shortcuts: 'اختصار',
       icon: 'أيقونة',
@@ -169,6 +175,7 @@
       settings: 'সেটিংস',
       configTitle: 'প্লাগইন কনফিগারেশন',
       save: 'সংরক্ষণ করুন',
+      btnSaveDrive: 'ড্রাইভে প্রোজেক্ট সেভ করুন',
       resetPos: 'মান রিসেট করুন',
       shortcuts: 'শর্টকাট',
       icon: 'আইকন',
@@ -189,6 +196,7 @@
       settings: 'Настройки',
       configTitle: 'Конфигурация плагина',
       save: 'Сохранить',
+      btnSaveDrive: 'Сохранить проект на Диске',
       resetPos: 'Сбросить значения',
       shortcuts: 'Ярлык',
       icon: 'Значок',
@@ -209,6 +217,7 @@
       settings: '設定',
       configTitle: 'プラグイン設定',
       save: '保存',
+      btnSaveDrive: 'プロジェクトをドライブに保存',
       resetPos: '値をリセット',
       shortcuts: 'ショートカット',
       icon: 'アイコン',
@@ -229,6 +238,7 @@
       settings: 'Einstellungen',
       configTitle: 'Plugin-Konfiguration',
       save: 'Speichern',
+      btnSaveDrive: 'Projekt in Drive speichern',
       resetPos: 'Werte zurücksetzen',
       shortcuts: 'Verknüpfung',
       icon: 'Symbol',
@@ -249,6 +259,7 @@
       settings: 'Paramètres',
       configTitle: 'Configuration du plugin',
       save: 'Enregistrer',
+      btnSaveDrive: 'Enregistrer le projet sur Drive',
       resetPos: 'Réinitialiser les valeurs',
       shortcuts: 'Raccourci',
       icon: 'Icône',
@@ -269,6 +280,7 @@
       settings: '설정',
       configTitle: '플러그인 구성',
       save: '저장',
+      btnSaveDrive: '프로젝트를 드라이브에 저장',
       resetPos: '값 초기화',
       shortcuts: '단축키',
       icon: '아이콘',
@@ -289,6 +301,7 @@
       settings: 'Cài đặt',
       configTitle: 'Cấu hình Plugin',
       save: 'Lưu',
+      btnSaveDrive: 'Lưu dự án vào Drive',
       resetPos: 'Đặt lại giá trị',
       shortcuts: 'Phím tắt',
       icon: 'Biểu tượng',
@@ -309,6 +322,7 @@
       settings: 'Impostazioni',
       configTitle: 'Configurazione Plugin',
       save: 'Salva',
+      btnSaveDrive: 'Salva progetto su Drive',
       resetPos: 'Reimposta valori',
       shortcuts: 'Scorciatoia',
       icon: 'Icona',
@@ -329,6 +343,7 @@
       settings: 'Ayarlar',
       configTitle: 'Eklenti Yapılandırması',
       save: 'Kaydet',
+      btnSaveDrive: `Projeyi Drive'a kaydet`,
       resetPos: 'Değerleri Sıfırla',
       shortcuts: 'Kısayol',
       icon: 'Simge',
@@ -349,6 +364,7 @@
       settings: 'Ustawienia',
       configTitle: 'Konfiguracja wtyczki',
       save: 'Zapisz',
+      btnSaveDrive: 'Zapisz projekt na Dysku',
       resetPos: 'Resetuj wartości',
       shortcuts: 'Skrót',
       icon: 'Ikona',
@@ -369,6 +385,7 @@
       settings: 'Instellingen',
       configTitle: 'Plugin Configuratie',
       save: 'Opslaan',
+      btnSaveDrive: 'Project opslaan in Drive',
       resetPos: 'Waarden resetten',
       shortcuts: 'Snelkoppeling',
       icon: 'Icoon',
@@ -890,6 +907,7 @@
     const key = `foldState:${location.href}`;
     const model = editor.getModel();
     const fileName = getFileName();
+    const projectId = getProjectId();
 
     const state = editor.saveViewState();
     if (state) {
@@ -914,7 +932,7 @@
     const config = JSON.parse(localStorage.getItem('foldToolbarConfig'));
     if (config?.autoSave) {
       setInterval(() => {
-        document.querySelector('[aria-label="Salvar projeto"]')?.click();
+        document.querySelector(`[aria-label="${T.btnSaveDrive}"]`)?.click();
       }, config.interval * 1000);
     }
   }
