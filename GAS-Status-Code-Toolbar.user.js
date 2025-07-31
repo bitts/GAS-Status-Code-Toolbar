@@ -23,7 +23,7 @@
 class CheckUpdate{
 
     constructor() {
-        this.DEBUG = DEBUG;
+        this.DEBUG = false;
         this.CHECK_INTERVAL_MS = 24 * 60 * 60 * 1000; // Verificar a cada 24 horas (em milissegundos)
         this.LAST_CHECK_KEY = 'lastScriptUpdateCheck';
 
