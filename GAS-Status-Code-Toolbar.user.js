@@ -10,7 +10,7 @@
 // @downloadURL  https://raw.githubusercontent.com/bitts/GAS-Status-Code-Toolbar/refs/heads/main/GAS-Status-Code-Toolbar.user.js
 // @icon         https://www.gstatic.com/script/apps_script_1x_24dp.png
 // @version      1.0.1
-// @license      MIT; https://opensource.org/licenses/MIT
+// @license      GNU General Public License, version 3 or later
 // @noframes
 // @match        https://script.google.com/*
 // @grant        none
