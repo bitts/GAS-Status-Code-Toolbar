@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GAS Status Code Toolbar
-// @description  Salvar estado DropDown de Blocos de Códigos + Toolbar com picker de ícones Lazy Load, busca, drag, auto-save, CSP safe.
+// @description  Google App Script Editor - Saves dropdown state of code blocks and more...
 // @author       Bitts [github.com/bitts](mbitts.com)
 // @copyright    2025, Bitts [github.com/bitts](mbitts.com)
 // @namespace    https://mbitts.com
